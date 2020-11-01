@@ -1,8 +1,8 @@
 {
   "kind": "Template",
   "apiVersion": "v1",
-  "metadata": {
-    "name": "myname",
+  "metetadata": {
+    "name": "my-template-name",
     "annotations": {
       "openshift.io/display-name": "CakePHP + MySQL (Ephemeral)",
       "description": "An example CakePHP application with a MySQL database. For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/cakephp-ex/blob/master/README.md.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
@@ -17,8 +17,8 @@
   },
   "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/cakephp-ex/blob/master/README.md.",
   "labels": {
-    "template": "mytemplate",
-    "app": "myapp"
+    "template": "my-template",
+    "app": "my-app"
   },
   "objects": [
     {
@@ -441,7 +441,7 @@
       "displayName": "Name",
       "description": "The name assigned to all of the frontend objects defined in this template.",
       "required": true,
-      "value": "ex288-cakephp"
+      "value": "ex288-name"
     },
     {
       "name": "NAMESPACE",
