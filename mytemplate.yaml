@@ -1,7 +1,7 @@
 {
   "kind": "Template",
   "apiVersion": "v1",
-  "metetadata": {
+  "metadata": {
     "name": "my-template-name",
     "annotations": {
       "openshift.io/display-name": "CakePHP + MySQL (Ephemeral)",
